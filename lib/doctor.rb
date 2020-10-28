@@ -1,5 +1,7 @@
 class Doctor
 
+  attr_accessor :name 
+
   @@all = []
 
   def initialize(name)
@@ -21,6 +23,6 @@ class Doctor
 
   def patients
     appointments.collect {|appointment| appointment.patient}
-  end 
+  end
 
 end
