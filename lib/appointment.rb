@@ -1,1 +1,6 @@
-class 
+class Appointment
+
+  @all = []
+
+
+end
